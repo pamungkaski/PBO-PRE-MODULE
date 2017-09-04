@@ -3,7 +3,7 @@ package com.company;
 public class Main {
 
     public static void main(String[] args) {
-	// write your code here
+    // write your code here
 //        1.
 //        a. Object Oriented: All things in jave treated as an object;
 //        b. Multithreaded: capable of multi tasking;
@@ -24,16 +24,16 @@ public class Main {
 //        4.;
           int[] bilangan =  new int[10] ;
 //        5.;
-        int a = 7;    // 11
+        int a = 7;    // 9
         int b = a++;  // 7
-        int c = ++a;  // 11
-        String x =  String.format("%o %o %o",a,b,c);
+        int c = ++a;  // 9
+        String x =  String.format("%d %d %d",a,b,c);
         System.out.println(x);
 //        6.
         int bilang = 5;
         int angan = 2;
         if (bilang == 0){
-            System.out.println(0);
+            System.out.println(1);
         }else {
             for (int i = 0; i < bilang; i++) {
                 angan *= 2;
